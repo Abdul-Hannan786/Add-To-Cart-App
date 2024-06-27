@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="top-cart">
+    <div class="cart-item">
+      <i class="fa-sharp fa-solid fa-xmark" onclick="closeCart()"></i>
+      <h2>Cart</h2>
+      <div class="items"></div>
+      <div class="total-bill"></div>
+    </div>
+  </div>
+
+  <header>
+    <h1>My E-commerce App</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li onclick="showCart()" class="cart">Cart</li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="carousel">
+    <div class="slides"></div>
+  </div>
+
+  <section class="products">
+    <h2>Products</h2>
+    <div class="product-list"></div>
+  </section>
+
+
+
+
+  <footer>
+    <p>&copy; 2024 My E-commerce App</p>
+  </footer>
+
+
+
+
+  
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
